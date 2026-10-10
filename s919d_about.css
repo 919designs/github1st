@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+ 
+body {
+  margin: 0;
+  background: #064257;
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  line-height: 1.5;
+}
+
+.site-header {
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.site-nav {
+  text-align: right;
+}
+
+header a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.two-column-layout {
+  width: 90%;
+  margin: 60px auto;
+  overflow: auto;
+}
+
+.home-column,
+.about-column {
+  float: left;
+  width: 50%;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  display: block;
+}
+
+h1 {
+  width: 411px;
+  margin: 0 0 10px;
+  font-size: 60px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.about-copy {
+  width: 411px;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 2.5;
+}
